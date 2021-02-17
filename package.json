@@ -1,0 +1,33 @@
+{
+  "name": "devlopment-test",
+  "description": "test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "serve": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Selim23/devlopment-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Selim23/devlopment-test/issues"
+  },
+  "homepage": "https://github.com/Selim23/devlopment-test#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "autoprefixer": "^10.2.4",
+    "axios": "^0.21.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node": "^15.8.0",
+    "node-fetch": "^2.6.1",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  }
+}
